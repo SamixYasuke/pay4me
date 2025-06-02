@@ -1,7 +1,15 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Home.tsx";
 
 const App: React.FC = () => {
-  return <h1>APP</h1>;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;
