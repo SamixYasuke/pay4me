@@ -4,6 +4,7 @@ import MainContentSection from "../components/MainContentSection";
 import DocumentMeta, { type DocumentMetaProps } from "react-document-meta";
 import Pay4MePurpose from "../components/Pay4MePurpose";
 import TestimonialCarousel from "../components/TestimonialCarousel";
+import Partnerships from "../components/Partnerships";
 
 const Homepage = () => {
   const meta: DocumentMetaProps = {
@@ -19,6 +20,7 @@ const Homepage = () => {
       <MainContentSection />
       <Pay4MePurpose />
       <TestimonialCarousel />
+      <Partnerships />
     </DocumentMeta>
   );
 };
