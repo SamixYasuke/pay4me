@@ -148,7 +148,7 @@ const Footer: React.FC = () => {
           trademarks and brands do not imply endorsement.
         </p>
         <p className="text-[14px] text-[#02D54A] leading-6 font-normal py-2">
-          ©2020 - 2024 Pay4Me.Inc
+          ©2020 - {new Date().getFullYear()} Pay4Me.Inc
         </p>
       </div>
     </footer>
