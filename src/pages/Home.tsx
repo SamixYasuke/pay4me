@@ -8,6 +8,7 @@ import Partnerships from "../components/Partnerships";
 import BlogCarousel from "../components/BlogCarousel";
 import FaQ from "../components/FaQ";
 import JoinNow from "../components/JoinNow";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   const meta: DocumentMetaProps = {
@@ -27,6 +28,7 @@ const Homepage = () => {
       <BlogCarousel />
       <FaQ />
       <JoinNow />
+      <Footer />
     </DocumentMeta>
   );
 };
