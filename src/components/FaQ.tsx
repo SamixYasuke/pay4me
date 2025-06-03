@@ -31,7 +31,7 @@ const FaQ: React.FC = () => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
   return (
-    <section className="my-11 mx-3">
+    <section className="my-11 md:my-40 mx-3">
       <div className="flex flex-col items-center justify-center gap-4 mb-8">
         <h2 className="text-[32px] lg:text-[40px] leading-12 lg:leading-14 font-normal text-center">
           Frequently asked questions
