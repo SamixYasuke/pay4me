@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import MainContentSection from "../components/MainContentSection";
 import DocumentMeta, { type DocumentMetaProps } from "react-document-meta";
+import Pay4MePurpose from "../components/Pay4MePurpose";
 
 const Homepage = () => {
   const meta: DocumentMetaProps = {
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Header />
       <HeroSection />
       <MainContentSection />
+      <Pay4MePurpose />
     </DocumentMeta>
   );
 };

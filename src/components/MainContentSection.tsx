@@ -2,7 +2,7 @@ import React from "react";
 
 const MainContentSection: React.FC = () => {
   return (
-    <main className="pt-8 sm:pt-10 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 pb-12 sm:pb-20 md:pb-28">
+    <section className="pt-8 sm:pt-10 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 pb-12 sm:pb-20 md:pb-28">
       <div className="flex flex-col items-center justify-center mb-12 sm:mb-16 md:mb-20 lg:mb-28 max-w-3xl mx-auto text-center">
         <h2 className="font-normal text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight text-[#171717]">
           Trusted by thousands of students and immigrants across the globe
@@ -48,7 +48,7 @@ const MainContentSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 
