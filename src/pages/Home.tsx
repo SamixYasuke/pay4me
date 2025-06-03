@@ -6,6 +6,7 @@ import Pay4MePurpose from "../components/Pay4MePurpose";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import Partnerships from "../components/Partnerships";
 import BlogCarousel from "../components/BlogCarousel";
+import FaQ from "../components/FaQ";
 
 const Homepage = () => {
   const meta: DocumentMetaProps = {
@@ -23,6 +24,7 @@ const Homepage = () => {
       <TestimonialCarousel />
       <Partnerships />
       <BlogCarousel />
+      <FaQ />
     </DocumentMeta>
   );
 };
