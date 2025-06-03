@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import MainContentSection from "../components/MainContentSection";
 import DocumentMeta, { type DocumentMetaProps } from "react-document-meta";
 import Pay4MePurpose from "../components/Pay4MePurpose";
+import TestimonialCarousel from "../components/TestimonialCarousel";
 
 const Homepage = () => {
   const meta: DocumentMetaProps = {
@@ -17,6 +18,7 @@ const Homepage = () => {
       <HeroSection />
       <MainContentSection />
       <Pay4MePurpose />
+      <TestimonialCarousel />
     </DocumentMeta>
   );
 };
