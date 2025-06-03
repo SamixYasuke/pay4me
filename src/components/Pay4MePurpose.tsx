@@ -2,9 +2,9 @@ import React from "react";
 
 const Pay4MePurpose: React.FC = () => {
   return (
-    <section className="my-16 md:my-24 lg:my-40 px-4 bg-[#02D54A] py-20">
-      <div className="text-center">
-        <h2 className="text-2xl md:text-3xl mb-6 font-medium text-[40px] leading-[56px] text-white">
+    <section className="px-10 bg-[#02D54A] py-20">
+      <div className="text-center mb-8">
+        <h2 className="font-medium text-[32px] leading-12 md:leading-14 text-white">
           Why We Created the Pay4Me App?
         </h2>
       </div>
@@ -31,9 +31,9 @@ const Pay4MePurpose: React.FC = () => {
           alt="Bottom-left star decoration"
         />
 
-        <div className="relative border-4 border-white rounded-lg overflow-hidden shadow-lg bg-black z-10">
+        <div className="relative border-2 border-white rounded-lg overflow-hidden shadow-lg bg-black z-10 h-[400px] md:h-auto">
           <video
-            className="w-full h-auto"
+            className="w-full h-full object-cover"
             src="/videos/video.mp4"
             controls
             aria-label="Pay4Me App introduction video"
