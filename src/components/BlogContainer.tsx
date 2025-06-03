@@ -16,7 +16,8 @@ const BlogContainer: React.FC<IBlogContainerProps> = ({
 }) => {
   return (
     <div
-      className={`keen-slider__slide bg-[${bgColor}] p-8 flex flex-col justify-between items-baseline rounded-4xl h-[500px] w-[486px]`}
+      style={{ backgroundColor: bgColor }}
+      className={`keen-slider__slide p-8 flex flex-col justify-between items-baseline rounded-4xl h-[400px] w-[486px]`}
     >
       <div>
         <img className="w-[80px]" src={image} alt="Image Placeholder" />

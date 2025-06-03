@@ -54,13 +54,13 @@ const BlogCarousel: React.FC = () => {
       title: "Step-by-Step: How to Pay Tuition From Nigeria or Ghana",
       image: "/images/pay4meicon.png",
       link: "/blog/step-by-step-how-to-pay-tuition-from-nigeria-or-ghana",
-      bgColor: "#FEF1FF",
+      bgColor: "#F0FFF0",
     },
     {
       title: "The Future of International Payments: Trends to Watch",
       image: "/images/pay4meicon.png",
       link: "/blog/future-international-payments-trends",
-      bgColor: "#EFF8FF",
+      bgColor: "#FFFACD",
     },
     {
       title: "How to Choose the Right Payment Method for Your Business",
