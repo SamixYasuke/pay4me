@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import MainContentSection from "../components/MainContentSection";
 import DocumentMeta, { type DocumentMetaProps } from "react-document-meta";
@@ -8,7 +7,6 @@ import Partnerships from "../components/Partnerships";
 import BlogCarousel from "../components/BlogCarousel";
 import FaQ from "../components/FaQ";
 import JoinNow from "../components/JoinNow";
-import Footer from "../components/Footer";
 
 const Homepage = () => {
   const meta: DocumentMetaProps = {
@@ -19,7 +17,6 @@ const Homepage = () => {
   };
   return (
     <DocumentMeta {...meta}>
-      <Header />
       <HeroSection />
       <MainContentSection />
       <Pay4MePurpose />
@@ -28,7 +25,6 @@ const Homepage = () => {
       <BlogCarousel />
       <FaQ />
       <JoinNow />
-      <Footer />
     </DocumentMeta>
   );
 };
