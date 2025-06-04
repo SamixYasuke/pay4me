@@ -1,12 +1,13 @@
 import { GrAppleAppStore } from "react-icons/gr";
 import { BiLogoPlayStore } from "react-icons/bi";
+import TypingEffect from "./TypingEffect";
 
 const HeroSection = () => {
   return (
     <main className="mt-8 md:mt-14 px-6 lg:px-8 mb-10">
       <div className="mb-8 md:mb-10 text-center max-w-[582px] lg:max-w-[786px] mx-auto">
         <h1 className="font-medium text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-black">
-          Effortless International Payments for Students with{" "}
+          Effortless International Payments for <TypingEffect /> with{" "}
           <span className="text-[#7AC52D]">Pay4Me</span>
         </h1>
         <p className="text-base sm:text-lg max-w-[700px] md:text-xl leading-relaxed text-[#171717] pt-4 md:pt-6 pb-2 mx-auto">
